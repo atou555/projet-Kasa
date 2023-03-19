@@ -11,7 +11,7 @@ function Kasa() {
 
   useEffect(() => {
     const port = window.location.port;
-    const url = `http://localhost:${port}/data.js`;
+    const url = `http://localhost:${port}/data.json`;
     fetch(url)
       .then(response => response.json())
       .then(data => {

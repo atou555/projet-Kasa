@@ -12,7 +12,7 @@ function App() {
 	return (
 		<Router>
 			<Routes>
-				<Route exact path="/kasa/" element={<Kasa />} />
+				<Route exact path="/" element={<Kasa />} />
 				<Route path="/accomodation/:id" element={<Accomodation />} />
 				<Route path='/about' element={<About />} />
 				<Route path="*" element={<NotFound />} />

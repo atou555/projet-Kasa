@@ -8,7 +8,7 @@ export default function About() {
 
   useEffect(() => {
     const port = window.location.port;
-    const url = `http://localhost:${port}/about.js`;
+    const url = `http://localhost:${port}/about.json`;
     fetch(url)
       .then(response => response.json())
       .then(data => {

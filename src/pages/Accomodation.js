@@ -16,7 +16,7 @@ export default function Accomodation() {
   
   useEffect(() => {
     const port = window.location.port;
-    const url = `http://localhost:${port}/data.js?id=${id}`;
+    const url = `http://localhost:${port}/data.json?id=${id}`;
     fetch(url)
       .then(response => response.json())
       .then(data => {
