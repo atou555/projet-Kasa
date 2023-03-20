@@ -4,7 +4,7 @@ import About from './pages/About';
 import Accomodation from './pages/Accomodation';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import React, { useEffect, useState } from "react";
+
 
 function App() {
 	
